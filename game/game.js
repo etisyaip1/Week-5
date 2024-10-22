@@ -29,7 +29,7 @@ function printList(list){
     }
 }
 
-function getHeroList(){}
+function getHeroList(){
     const list = []; // array
     for(let i = 0; i < spriteList.length; i++) {
         if(spriteList[i].kind === "wizard"){
@@ -37,7 +37,7 @@ function getHeroList(){}
     }
 }
 return outputList; //send array back
-
+}
 function getParasites(){
     for (let i = 0; i < spriteList.length; i++) {
         if(spriteList[i].kind == "parasite"){
